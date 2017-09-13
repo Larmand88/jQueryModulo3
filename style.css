@@ -1,0 +1,51 @@
+h3{
+	margin: 0px;
+	color: black;
+}
+
+ td,th,table{
+	border:1px solid black;
+	border-collapse: collapse;
+	color:black;
+	margin:10px;
+}
+form{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+table{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+button{
+	margin 0px;
+	border:none;
+	padding: 5px;
+	box-sizing: content-box;
+	margin: 5px;
+}
+.miForm fieldset p label span.error{
+  color: red!important;
+}
+form.miForm{
+	padding: 5px 10px 5px 10px;
+  width: 30em;
+  background-color: #006666;
+}
+form.miForm legend, form.miForm label{
+  color: black;
+}
+form.miForm fieldset{
+  border: 1px solid #999;
+  border-radius: 8px;
+  border-color: black;
+  box-shadow: 0 0 10px #999
+}
+form.miForm label{
+  width:auto;
+  display: block;
+  float: none;
+}
+.selectedRow{
+	background-color: cyan;
+}

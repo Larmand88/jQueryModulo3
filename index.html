@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="jquery-3.2.1.js"></script>
+        <script src="jquery.validate.js"></script>
+            <title> Evaluacion final </title>
+        </meta>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+<form id="miForm" method="get" class="miForm" action="">
+  <fieldset>
+    <p>
+      <label for="codigo">Codigo: </label>
+      <input id="codigo" name="codigo" type="text" required min="1" max="9999"/>
+    </p>
+    <p>
+      <label for="nombre">Nombre: </label>
+      <input id="nombre" name="nombre" type="text" required/>
+    </p>
+    <p>
+      <label for="nota">Nota: </label>
+      <input id="nota" name="nota" type="text" required min="0" max="100"/>
+    </p>
+  <input type="submit" id="registrarEstudiante" value="Registrar estudiante" />
+  <input type="button" id="mostrarMayor" value="Nota Mayor" />
+  <input type="button" id="mostrarMenor" value="Nota Menor" />
+  <input type="button" id="mostrarPromedio" value="Nota Promedio" />
+  </fieldset>
+</form>
+        <p id="p1"></p>
+        <script src="index.js" type="text/javascript"></script>
+    </body>
+</html>
